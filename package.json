@@ -1,0 +1,11 @@
+{
+  "name": "node-js-and-express-project-template",
+  "version": "0.0.1",
+  "description": "a preconfigured Node.js and Express template with a devcontainer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brock Davis",
+  "license": "ISC"
+}
