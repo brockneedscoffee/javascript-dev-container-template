@@ -4,8 +4,22 @@
   "description": "a preconfigured Node.js and Express template with a devcontainer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src"
+  },
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "4.4.1"
+    }
   },
   "author": "Brock Davis",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongodb": "^4.12.1",
+    "mongodb-memory-server": "^8.10.2",
+    "morgan": "^1.10.0"
+  }
 }
