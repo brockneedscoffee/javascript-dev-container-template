@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "waderyan.nodejs-extension-pack"
+  ]
+}
